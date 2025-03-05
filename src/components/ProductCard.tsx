@@ -16,6 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           width={150}
           height={150}
           className="h-full object-contain"
+          unoptimized={true}
         />
       </div>
       <div className="p-4 border-t border-gray-200">
